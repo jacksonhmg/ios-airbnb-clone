@@ -12,7 +12,7 @@ struct AirbnbListingsView: View {
     @StateObject var viewModel = AirbnbListingsViewViewModel()
     var body: some View {
         NavigationView {
-            List(viewModel.listings) {
+            List(viewModel.listings) { listing in
                 Text(listing.name ?? "-" )
             }
         }
