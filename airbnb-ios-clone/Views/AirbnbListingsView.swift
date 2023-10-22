@@ -18,7 +18,7 @@ struct AirbnbListingsView: View {
                         .progressViewStyle(CircularProgressViewStyle())
                 } else {
                     List(viewModel.listings) { listing in
-                        NavigationLink(destination: Text("Hello"), label: { AirbnbListingCardView(model: listing)
+                        NavigationLink(destination: AirbnbDetailView(model: listing), label: { AirbnbListingCardView(model: listing)
                         })
                     }
                 }
