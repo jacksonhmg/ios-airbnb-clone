@@ -25,6 +25,10 @@ struct AirbnbDetailView: View {
                         .bold()
                         .padding()
                     
+                    if let price = model.price {
+                        Text("Nightly Rate: \(price.formatted(.currency(code: "USD")))")
+                    }
+                    
                     Text("Description: \(model.description ?? "")")
                         .padding()
                     Text("Summary: \(model.summary ?? "")")
@@ -54,6 +58,7 @@ struct AirbnbDetailView: View {
                 .frame(maxWidth: proxy.frame(in: .local).width)
             }
         }
+        .navigationTitle(model.name ?? "Listing")
     }
 }
 
