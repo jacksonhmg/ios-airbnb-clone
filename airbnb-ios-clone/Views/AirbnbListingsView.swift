@@ -9,7 +9,15 @@ import Foundation
 import SwiftUI
 
 struct AirbnbListingsView: View {
+    @StateObject var viewModel = AirbnbListingsViewViewModel()
     var body: some View {
-        Text("Hello")
+        NavigationView {
+            List(viewModel.listings) {
+                Text(listing.name ?? "-" )
+            }
+        }
+        .onAppear {
+            viewModel.fetchListings()
+        }
     }
 }

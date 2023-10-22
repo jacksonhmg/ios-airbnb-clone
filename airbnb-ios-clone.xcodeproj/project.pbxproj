@@ -17,6 +17,7 @@
 		B16DAA832AE348C000B4B817 /* AirbnbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DAA822AE348C000B4B817 /* AirbnbDetailView.swift */; };
 		B16DAA852AE348F500B4B817 /* AirbnbListingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DAA842AE348F500B4B817 /* AirbnbListingsResponse.swift */; };
 		B16DAA872AE348FD00B4B817 /* AirbnbListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DAA862AE348FD00B4B817 /* AirbnbListing.swift */; };
+		B16DAA892AE35FAC00B4B817 /* AirbnbListingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DAA882AE35FAC00B4B817 /* AirbnbListingsViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B16DAA822AE348C000B4B817 /* AirbnbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbDetailView.swift; sourceTree = "<group>"; };
 		B16DAA842AE348F500B4B817 /* AirbnbListingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListingsResponse.swift; sourceTree = "<group>"; };
 		B16DAA862AE348FD00B4B817 /* AirbnbListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListing.swift; sourceTree = "<group>"; };
+		B16DAA882AE35FAC00B4B817 /* AirbnbListingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListingsViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		B16DAA7A2AE346EF00B4B817 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B16DAA882AE35FAC00B4B817 /* AirbnbListingsViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				B16DAA832AE348C000B4B817 /* AirbnbDetailView.swift in Sources */,
 				B16DAA7F2AE347FD00B4B817 /* AirbnbListingsView.swift in Sources */,
 				B16DAA812AE3488400B4B817 /* AirbnbListingCardView.swift in Sources */,
+				B16DAA892AE35FAC00B4B817 /* AirbnbListingsViewViewModel.swift in Sources */,
 				B16DAA7D2AE3473F00B4B817 /* APIService.swift in Sources */,
 				B16DAA872AE348FD00B4B817 /* AirbnbListing.swift in Sources */,
 				B16DAA6B2AE3462000B4B817 /* airbnb_ios_cloneApp.swift in Sources */,
